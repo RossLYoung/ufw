@@ -82,7 +82,7 @@ else
         destination params['destination'] if params['destination']
         dest_port params['dest_port'].to_i if params['dest_port']
         position params['position'].to_i if params['position']
-        action act
+        action create
       end
     end
   end
